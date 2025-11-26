@@ -417,7 +417,7 @@ void MainWindow::addAppointment()
         // Create SMTP object with SSL port 465
         Smtp *smtp = new Smtp(
             "wazuchan1@gmail.com",       // Your Gmail
-            "llhbnpksvonpoyhy",          // Gmail App Password (no spaces)
+            "***********",          // Gmail App Password (no spaces)
             "smtp.gmail.com",             // SMTP server
             465,                          // SSL port
             this
@@ -563,3 +563,4 @@ void MainWindow::loadAppointmentsFromDatabase()
 
     qDebug() << "Appointments loaded from database.";
 }
+
