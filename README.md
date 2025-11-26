@@ -1,1 +1,2 @@
 # CarMaintenanceSystem
+is a desktop application built with Qt and C++ to help users manage vehicle maintenance efficiently. It allows customers to register, log in, and track car maintenance tasks, such as servicing schedules, repairs, and reminders. By organizing maintenance records in a SQLite database, the system ensures easy access, prevents missed services, and helps users save time and costs.
